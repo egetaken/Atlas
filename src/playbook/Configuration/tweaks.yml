@@ -48,7 +48,7 @@ actions:
   - !writeStatus: {status: 'Running performance tweaks'}
   - !task: {path: 'tweaks\performance\config-mmcss.yml'}
   - !task: {path: 'tweaks\performance\disable-auto-folder-discovery.yml'}
-  # - !task: {path: 'tweaks\performance\disable-game-bar.yml'}
+  - !task: {path: 'tweaks\performance\disable-game-bar.yml'}
   - !task: {path: 'tweaks\performance\config-automatic-maintenance.yml'}
   - !task: {path: 'tweaks\performance\disable-background-apps.yml'}
   - !task: {path: 'tweaks\performance\disable-fth.yml'}
@@ -161,7 +161,7 @@ actions:
   - !task: {path: 'tweaks\qol\do-not-reduce-sounds.yml'}
   - !task: {path: 'tweaks\qol\hide-disabled-disconnected-sounds.yml'}
   - !task: {path: 'tweaks\qol\show-all-tasks-control-panel.yml'}
-  - !task: {path: 'tweaks\qol\visual-effects.yml'}
+  # - !task: {path: 'tweaks\qol\visual-effects.yml'}
   - !task: {path: 'tweaks\qol\disable-tips.yml'}
   - !task: {path: 'tweaks\qol\disable-win11-settings-banner.yml'}
   - !task: {path: 'tweaks\qol\disable-screen-capture-hotkey.yml', option: 'remove-snipping-tool'}
@@ -182,7 +182,7 @@ actions:
   - !task: {path: 'tweaks\qol\windows-update\disable-nagging.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-insider.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-msrt-telemetry.yml'}
-  - !task: {path: 'tweaks\qol\windows-update\disable-feature-updates.yml'}
+  # - !task: {path: 'tweaks\qol\windows-update\disable-feature-updates.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-auto-updates.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-auto-reboot.yml'}
   - !task: {path: 'tweaks\qol\windows-update\disable-delivery-optimization.yml'}
@@ -208,7 +208,7 @@ actions:
   - !task: {path: 'tweaks\qol\taskbar\config-pins.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-copilot.yml'}
   - !task: {path: 'tweaks\qol\taskbar\disable-windows-chat.yml'}
-  - !task: {path: 'tweaks\qol\taskbar\set-to-left.yml'}
+  # - !task: {path: 'tweaks\qol\taskbar\set-to-left.yml'}
   - !task: {path: 'tweaks\qol\taskbar\end-task.yml'}
 
   # -------------------------------------------------------------------------- #
@@ -232,7 +232,7 @@ actions:
   - !task: {path: 'tweaks\qol\explorer\show-files.yml'}
   - !task: {path: 'tweaks\qol\explorer\classic-search.yml'}
   - !task: {path: 'tweaks\qol\explorer\dont-show-office-files.yml'}
-  - !task: {path: 'tweaks\qol\explorer\use-compact-mode.yml'}
+  # - !task: {path: 'tweaks\qol\explorer\use-compact-mode.yml'}
   - !task: {path: 'tweaks\qol\explorer\disable-gallery.yml'}
   - !task: {path: 'tweaks\qol\explorer\debloat-send-to.yml'}
   - !task: {path: 'tweaks\qol\explorer\enable-long-paths.yml'}
@@ -273,7 +273,7 @@ actions:
   - !task: {path: 'tweaks\qol\shell\disable-network-location-wizard.yml'}
   - !task: {path: 'tweaks\qol\shell\set-unpinned-notification-items.yml'}
   - !task: {path: 'tweaks\qol\shell\restore-old-context-menu.yml'}
-  - !task: {path: 'tweaks\qol\shell\show-more-pins.yml'}
+  # - !task: {path: 'tweaks\qol\shell\show-more-pins.yml'}
   - !task: {path: 'tweaks\qol\shell\no-recommendations-start-menu.yml'}
   - !task: {path: 'tweaks\qol\shell\disable-nearby-sharing.yml'}
   - !task: {path: 'tweaks\qol\shell\config-autorun.yml'}
@@ -320,7 +320,7 @@ actions:
   - !task: {path: 'tweaks\debloat\config-content-delivery.yml'}
   - !task: {path: 'tweaks\debloat\disable-reserved-storage.yml'}
   - !task: {path: 'tweaks\debloat\disable-scheduled-tasks.yml'}
-  - !task: {path: 'tweaks\debloat\hide-unused-security-pages.yml'}
+  # - !task: {path: 'tweaks\debloat\hide-unused-security-pages.yml'}
   - !task: {path: 'tweaks\debloat\config-storage-sense.yml'}
 
 
@@ -338,7 +338,7 @@ actions:
   - !task: {path: 'tweaks\scripts\script-core-isolation.yml'}
   - !task: {path: 'tweaks\scripts\script-mitigations.yml'}
   - !task: {path: 'tweaks\scripts\script-devices.yml'}
-  - !task: {path: 'tweaks\scripts\script-pfp.yml'}
+  # - !task: {path: 'tweaks\scripts\script-pfp.yml'}
   - !task: {path: 'tweaks\scripts\script-backup2.yml'}
   - !task: {path: 'tweaks\scripts\script-clientcbs.yml'}
 
@@ -357,9 +357,9 @@ actions:
   - !task: {path: 'tweaks\misc\delete-windows-specific-files.yml'}
   - !task: {path: 'tweaks\misc\rebuild-perf-counters.yml'}
   - !task: {path: 'tweaks\misc\make-measuresleep-admin.yml'}
-  - !task: {path: 'tweaks\misc\create-shortcuts.yml'}
+  # - !task: {path: 'tweaks\misc\create-shortcuts.yml'}
   - !task: {path: 'tweaks\misc\add-newUser-script.yml'}
   - !task: {path: 'tweaks\misc\add-music-videos-to-home.yml'}
   - !task: {path: 'tweaks\scripts\script-power.yml'} # Done last on purpose
   - !task: {path: 'tweaks\misc\enable-notifications.yml'}
-  - !task: {path: 'tweaks\misc\config-oem-information.yml'}
+  # - !task: {path: 'tweaks\misc\config-oem-information.yml'}
